@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kubovy hry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0a0a1a; color: #e0e0e0; min-height: 100vh; }
@@ -18,11 +19,11 @@
         .game-card .info h2 { font-size: 1.2em; color: #fff; margin-bottom: 6px; }
         .game-card .info p { font-size: 0.85em; color: #888; line-height: 1.4; }
         .game-card .info .tag { display: inline-block; background: #1a1a3a; color: #00cc77; font-size: 0.75em; padding: 3px 8px; border-radius: 4px; margin-top: 8px; }
-        .hi-scores { margin-top: 10px; font-size: 0.75em; color: #ffcc00; font-family: 'Courier New', monospace; }
-        .hi-scores .entry { display: flex; justify-content: space-between; padding: 1px 0; }
-        .hi-scores .entry .rank { color: #888; }
-        .hi-scores .entry .name { color: #e0e0e0; }
-        .hi-scores .entry .score { color: #ffcc00; }
+        .hi-scores { margin-top: 10px; font-size: 0.6em; color: #ffcc00; font-family: 'Press Start 2P', 'Courier New', monospace; }
+        .hi-scores .entry { display: flex; justify-content: space-between; padding: 2px 0; }
+        .hi-scores .entry .rank { color: #888; width: 2em; }
+        .hi-scores .entry .name { color: #e0e0e0; flex: 1; text-align: left; }
+        .hi-scores .entry .score { color: #ffcc00; text-align: right; }
         .hi-scores .entry:first-child .name, .hi-scores .entry:first-child .score { color: #ffd700; }
         footer { text-align: center; padding: 20px; color: #444; font-size: 0.85em; }
     </style>
