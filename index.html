@@ -7,25 +7,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: 'Segoe UI', Tahoma, sans-serif; background: #0a0a1a; color: #e0e0e0; min-height: 100vh; }
+        body { font-family: 'Press Start 2P', 'Courier New', monospace; background: #0a0a1a; color: #e0e0e0; min-height: 100vh; }
         header { text-align: center; padding: 40px 20px 20px; }
-        header h1 { font-size: 2.5em; color: #00ff88; text-shadow: 0 0 20px rgba(0, 255, 136, 0.3); margin-bottom: 8px; }
-        header p { color: #888; font-size: 1.1em; }
+        header h1 { font-size: 1.8em; color: #00ff88; text-shadow: 0 0 20px rgba(0, 255, 136, 0.3); margin-bottom: 8px; }
+        header p { color: #888; font-size: 0.7em; }
         .games { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; max-width: 1100px; margin: 30px auto; padding: 0 20px 40px; }
         .game-card { background: #141428; border-radius: 12px; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; border: 1px solid #222244; }
         .game-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0, 255, 136, 0.15); border-color: #00ff88; }
         .game-card img { width: 100%; height: 200px; object-fit: cover; display: block; }
         .game-card .info { padding: 16px; }
-        .game-card .info h2 { font-size: 1.2em; color: #fff; margin-bottom: 6px; }
-        .game-card .info p { font-size: 0.85em; color: #888; line-height: 1.4; }
-        .game-card .info .tag { display: inline-block; background: #1a1a3a; color: #00cc77; font-size: 0.75em; padding: 3px 8px; border-radius: 4px; margin-top: 8px; }
+        .game-card .info h2 { font-size: 0.9em; color: #fff; margin-bottom: 6px; }
+        .game-card .info p { font-size: 0.55em; color: #888; line-height: 1.8; }
+        .game-card .info .tag { display: inline-block; background: #1a1a3a; color: #00cc77; font-size: 0.5em; padding: 3px 8px; border-radius: 4px; margin-top: 8px; }
         .hi-scores { margin-top: 10px; font-size: 0.6em; color: #ffcc00; font-family: 'Press Start 2P', 'Courier New', monospace; }
         .hi-scores .entry { display: flex; justify-content: space-between; padding: 2px 0; }
         .hi-scores .entry .rank { color: #888; width: 2em; }
         .hi-scores .entry .name { color: #e0e0e0; flex: 1; text-align: left; }
         .hi-scores .entry .score { color: #ffcc00; text-align: right; }
         .hi-scores .entry:first-child .name, .hi-scores .entry:first-child .score { color: #ffd700; }
-        footer { text-align: center; padding: 20px; color: #444; font-size: 0.85em; }
+        footer { text-align: center; padding: 20px; color: #444; font-size: 0.6em; }
     </style>
 </head>
 <body>
@@ -96,6 +96,14 @@
             <div class="info">
                 <h2>Easter Egg</h2>
                 <p>Sbírej vajíčka, přeskakuj psy a vyhni se traktoru! Velikonoční hra pro Kubu.</p>
+                <span class="tag">libGDX + TeaVM</span>
+            </div>
+        </a>
+        <a href="gm009" class="game-card" data-game-id="kfs-tank">
+            <img src="thumbs/gm009.jpg" alt="KubasaurusTank">
+            <div class="info">
+                <h2>KubasaurusTank</h2>
+                <p>Iso tankova strilecka — nič nepřátele, sbírej palivo a přežij co nejvíc vln!</p>
                 <span class="tag">libGDX + TeaVM</span>
             </div>
         </a>
